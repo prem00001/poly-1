@@ -16,9 +16,9 @@ contract lord is ERC721A {
         "https://gateway.pinata.cloud/ipfs/QmcX3QoHU2kSJwEacBDqXpLJ3XhEGf3cawpffjarGwMqaQ/";
 
     // URL for the prompt description
-    string public prompt = "A cricketer wearing blue jersey cheering the crowd";
+    string public prompt = "This is for Lord";
 
-    constructor() ERC721A("cricketer", "CRT") {
+    constructor() ERC721A("Lord", "LRD") {
         owner = msg.sender;
     }
 
