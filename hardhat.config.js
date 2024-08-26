@@ -15,5 +15,10 @@ module.exports = {
       url: 'https://rpc.sepolia.org',
       accounts: [process.env.PRIVATE_KEY]
     },   
+amoy: {
+      url: 'https://rpc-amoy.polygon.technology/',
+      accounts: [process.env.PRIVATE_KEY]
+},
+
 }
 };
