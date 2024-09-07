@@ -1,4 +1,4 @@
-// This script batch mints criceket ERC721A tokens.
+// This script batch mints lord ERC721A tokens.
 
 // Import required libraries
 const { ethers } = require("hardhat");
